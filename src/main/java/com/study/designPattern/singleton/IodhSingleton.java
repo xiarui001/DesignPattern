@@ -1,7 +1,8 @@
 package com.study.designPattern.singleton;
 
 /**
- * iodh模式的单例 减少了锁的消耗
+ * iodh模式的单例  相比懒汉 减少了锁的消耗
+ * 相比饿汉 不需要在类加载时就创建单例对象
  */
 public class IodhSingleton {
 
